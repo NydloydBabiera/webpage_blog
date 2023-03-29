@@ -147,6 +147,10 @@ body{
     display: none;
 }
 
+#ch:checked ~ label{
+    display: none;
+}
+
  .blog-par{
     display: none;
  }
@@ -166,7 +170,9 @@ body{
 #ch2:checked ~ #blog-p2{
     display: none;
 }
-
+#ch2:checked ~ label{
+    display: none;
+}
  .blog-par2{
     display: none;
  }
@@ -186,7 +192,9 @@ body{
 #ch3:checked ~ #blog-p3{
     display: none;
 }
-
+#ch3:checked ~ label{
+    display: none;
+}
  .blog-par3{
     display: none;
  }
@@ -207,7 +215,9 @@ body{
 #ch4:checked ~ #blog-p4{
     display: none;
 }
-
+#ch4:checked ~ label{
+    display: none;
+}
  .blog-par4{
     display: none;
  }
@@ -229,6 +239,9 @@ body{
     display: none;
 }
 
+#ch5:checked ~ label{
+    display: none;
+}
  .blog-par5{
     display: none;
  }
@@ -249,7 +262,11 @@ body{
     display: none;
 }
 
- .blog-par6{
+#ch6:checked ~ label{
+    display: none;
+}
+
+.blog-par6{
     display: none;
  }
 
