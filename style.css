@@ -273,3 +273,28 @@ body{
  .blog-text #blog-p6{
     -webkit-line-clamp: 2;
 }
+
+/* blog 7 */
+#ch7{
+    display: none;
+}
+
+#ch7:checked ~ .blog-par7{
+    display: block;
+}
+
+#ch7:checked ~ #blog-p7{
+    display: none;
+}
+
+#ch7:checked ~ label{
+    display: none;
+}
+
+.blog-par7{
+    display: none;
+ }
+
+ .blog-text #blog-p7{
+    -webkit-line-clamp: 2;
+}
